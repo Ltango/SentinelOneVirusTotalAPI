@@ -25,6 +25,9 @@ class Utilities:
     def printLog(msg):
         print(Utilities.OKBLUE + "[LOG]" + msg + Utilities.ENDC)
 
+    def printWarning(msg):
+        print(Utilities.WARNING + "[ATTENTION]" + msg + Utilities.ENDC)
+
     def gen_code(size = 16, chars=string.ascii_uppercase + string.digits + string.ascii_lowercase):
         return ''.join(random.SystemRandom().choice(chars) for _ in range(size))
     
