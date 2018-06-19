@@ -12,6 +12,8 @@ class Utilities:
     FAIL = '\033[91m'
     ENDC = '\033[0m'
     EXCEPTION = '\033[96m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
 
     def printSuccess(msg):
         print(Utilities.OKGREEN + "[OK]" + msg + Utilities.ENDC)
